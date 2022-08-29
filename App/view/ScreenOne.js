@@ -14,7 +14,7 @@ export default class ScreenOne extends Component{
 const styles = StyleSheet.create({
     conatin:{
         flex:1,
-        backgroundColor: 'pink',
+        backgroundColor: 'blue',
         justifyContent: 'center',
         alignItems: 'center',
     },
