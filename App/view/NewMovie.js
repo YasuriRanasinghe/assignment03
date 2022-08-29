@@ -3,7 +3,7 @@ import {View,Text,StyleSheet, FlatList, ScrollView} from "react-native";
 import MovieBox from "./MovieBox";
 
 
-const API_URL='https://api.themoviedb.org/3/movie/popular?api_key=87387d9c4ef33ec1962618a472760fff'
+const API_URL='https://api.themoviedb.org/3/movie/550?api_key=158cebff5ecaa628c35835b616148c76'
 function App(){
     const [movies, setMovies] = useState([]);
     
