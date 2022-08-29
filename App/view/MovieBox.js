@@ -4,7 +4,7 @@ import ScreenOne from "./ScreenOne";
 import {useNavigation} from '@react-navigation/native';
 
 
-const API_IMG='https://image.tmdb.org/t/p/w50/'
+const API_IMG='https://image.tmdb.org/t/p/w500'
 const MovieBox =({title , poster_path,overview})=>{
     
     
