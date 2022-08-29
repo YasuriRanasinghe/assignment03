@@ -1,11 +1,8 @@
-import React, {Component} from 'react';
-import {View, StyleSheet, Text} from 'react-native';
+import React,{Component} from "react";
+import { View,StyleSheet, Text } from "react-native";
 
 export default class ScreenOne extends Component{
-    static navigationOptions={
-
-    }
-    render() {
+    render(){
         return(
             <View style={styles.conatin}>
                 <Text style={styles.textStyle}>Screen One</Text>
@@ -16,12 +13,12 @@ export default class ScreenOne extends Component{
 
 const styles = StyleSheet.create({
     conatin:{
-        flex: 1,
+        flex:1,
         backgroundColor: 'pink',
         justifyContent: 'center',
         alignItems: 'center',
     },
-    textStyle: {
+    textStyle:{
         fontSize: 40,
         color: 'black',
         fontWeight: 'bold',
